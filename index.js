@@ -1,4 +1,3 @@
-import _ from 'lodash';
 import capitalizedName from './src/index.js';
 
 const name = 'andrey';
