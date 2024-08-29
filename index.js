@@ -1,6 +1,6 @@
 import _ from "lodash"
 
-const name = 'andrey'
+const  name = 'andrey'
 
 const capitalizedName = _.capitalize(name);
 
