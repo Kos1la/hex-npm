@@ -1,12 +1,8 @@
-import _ from "lodash"
+import _ from 'lodash';
+import capitalizedName from './src/index.js';
 
-const  name = 'andrey'
+const name = 'andrey';
 
-const capitalizedName = _.capitalize(name);
+const result = capitalizedName(name);
 
-
-console.log(_.last(['one','two']));
-
-console.log(capitalizedName)
-
-
+console.log(result);
