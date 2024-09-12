@@ -1,7 +1,10 @@
-import capitalizedName from './src/index.js';
+export const capitalize = (str) => {
+  if (str === '') {
+    return '';
+  }
+  const firstSymbol = str[0].toUpperCase();
+  const restSymbols = str.slice(1);
+  return firstSymbol + restSymbols;
+};
 
-const name = 'andrey';
-
-const result = capitalizedName(name);
-
-console.log(result);
+// console.log(capitalize('hello'));
